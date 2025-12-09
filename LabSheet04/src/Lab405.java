@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Lab405 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         String sentence;
 
         while (true) {

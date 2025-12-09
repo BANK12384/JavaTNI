@@ -14,6 +14,7 @@ public class Lab404 {
             sentence = sentence + word+" " ;
         }
         System.out.println(sentence);
+
     }
 }
  

@@ -10,5 +10,7 @@ public class Lab401 {
 
         JOptionPane.showMessageDialog(null,"Welcome, "+name.toUpperCase().charAt(0)+name.substring(1,name.indexOf(' '))+" "+name.toUpperCase().substring(name.indexOf(' ')+1));
 
+
+
     }
 }
