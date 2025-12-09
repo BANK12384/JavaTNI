@@ -1,0 +1,15 @@
+import java.text.DecimalFormat;
+
+public class Ex201 {
+    static void main(String[] args) {
+        String code = "PB-001";
+        String name = "Pencel Box";
+        int item = 112;
+        double price_per_item = 30.20;
+        DecimalFormat frm = new DecimalFormat("#,###.00");
+        System.out.println("Product name: " + name + " ("+ code +") ");
+        System.out.println("Product item: "+item+ " ("+ price_per_item +" baht/price ) ");
+        double totalprice = item * price_per_item;
+        System.out.println("Total price: "+ frm.format(totalprice)+ " baht ");
+    }
+}

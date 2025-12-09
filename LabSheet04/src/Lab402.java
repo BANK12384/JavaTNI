@@ -14,6 +14,7 @@ public class Lab402 {
         }
 
         else if(student_id.substring(2,5).endsWith("133") == true ){
+
             major = "Digital Business Information Technology (BI)";
         }
         else if(student_id.substring(2,5).endsWith("134") == true ){
