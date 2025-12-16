@@ -19,6 +19,7 @@ public class Lab501 {
         int check = JOptionPane.showConfirmDialog(null,
                "Do you want to check your BMI?","Check_BMI",JOptionPane.YES_NO_OPTION);
 
+
         DecimalFormat format = new DecimalFormat("##.00");
         if (check == JOptionPane.YES_OPTION){
             double weight = Double.parseDouble(JOptionPane.showInputDialog("Enter your weight (kg.):"));

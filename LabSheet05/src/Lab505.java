@@ -15,4 +15,5 @@ public class Lab505 {
         JOptionPane.showMessageDialog(null,word + " is "+ (is_palindrome(word)? " " : "NOT ") +"Palindrome");
     }
 }
- 
+
+

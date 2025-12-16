@@ -19,4 +19,5 @@ public class Lab503 {
                 "\nThe letter 'O' appear "+count_vowel(massage,'o')+" time(s)."+
                 "\nThe letter 'U' appear "+count_vowel(massage,'u')+" time(s).");
     }
+
 }
